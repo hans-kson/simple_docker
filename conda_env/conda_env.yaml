@@ -1,0 +1,8 @@
+# conda env create -f environment.yaml
+name: simple_flask
+channels:
+ - defaults
+dependencies:
+ - python=3.10.8
+ - pip=22.2.2
+ - flask=2.2.2
